@@ -1,0 +1,98 @@
+.secondswiperindex{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+div.secondswiperindex-content{
+    width: 115%;
+    height: 285px;
+    background: rgb(239,58,79);
+    background: linear-gradient(180deg, rgba(239,58,79,1) 0%, rgba(239,64,86,1) 100%);
+    border-radius: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+/*second swiper*/
+.myswiper2 {
+    width: 100%;
+    height: 100%;
+}
+.swiper-wrapper{
+    height: 37vh !important;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: 80% !important;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.mySwiper2 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.mySwiper2 img:hover{
+    cursor: pointer;
+}
+
+.secondswiperindex{
+    width: 85%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 7%;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.wrapper2{
+    margin-top: 20px;
+    height: 50%;
+}
+.wrapper2>div:nth-of-type(1){
+    width: 100%;
+    height: 100%;
+    background: url("img/swiper2/back1.PNG");
+
+}
+.s2last{
+    height: 245px;
+    background-color: white;
+}
+.s2last{
+    height: 245px !important;
+    background-color: white;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+.hame{
+    width: 40px;
+    height: 40px;
+    border:1px solid #19BFD3;
+    border-radius: 50%;
+    line-height: 43px;
+    margin-right: 40%;
+    cursor: pointer;
+
+}
+.fa-arrow-left{
+    color: #19BFD3;
+}
+/*second swiper*/

@@ -1,0 +1,32 @@
+div.sub3>li{
+    position: relative;
+    line-height: 30px;
+    width: 340px;
+}
+
+div.sub3{
+    position: absolute;
+    top: 1px;
+    right: 850px;
+    cursor: pointer;
+    margin-top: 70px;
+
+}
+div.sub3>div{
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+
+div.sub3>li{
+    position: relative;
+    line-height: 30px;
+}
+
+
+div.sub3>div{
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+div.sub3>li:nth-of-type(1) , div.sub3>li:nth-of-type(7){
+    font-weight: bolder;
+}

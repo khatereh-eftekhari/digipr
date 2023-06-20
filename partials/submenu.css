@@ -1,0 +1,245 @@
+div.submenu {
+    display: none;
+    width: 95%;
+    height: 70vh;
+    position: absolute;
+    padding-right: 30px;
+    right: 20px;
+    top: 32px;
+    list-style-type: none;
+    line-height: 4vh;
+    background-color: white;
+    z-index: 99;
+}
+
+div.items>ul{
+    margin-bottom: 0;
+}
+div.items>ul>li{
+    height: 32px;
+}
+div.submenu:hover {
+    display: block;
+}
+.items>ul>li:nth-of-type(1):hover~div.submenu {
+    display: inline-block;
+    z-index: 2;
+}
+
+.items>ul>li:nth-of-type(1):hover ~ div.sub1 {
+    display: inline-block;
+    z-index: 2;
+}
+
+div.submenu:hover {
+    display: inline-block;
+    cursor: pointer;
+    z-index: 2;
+}
+
+div.submenu li:hover {
+    color: red;
+}
+
+
+div.submenu>li:nth-of-type(2):hover~div.sub1 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(2):hover~div.sub2 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(2):hover~div.sub3 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(2):hover~div.sub4 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(3):hover~div.sub1 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(3):hover~div.sub2 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(3):hover~div.sub3 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(3):hover~div.sub4 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(4):hover~div.sub1 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(4):hover~div.sub2 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(4):hover~div.sub3 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(4):hover~div.sub4 {
+    display: none;
+}
+
+
+div.submenu>li:nth-of-type(5):hover~div.sub1 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(5):hover~div.sub2 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(5):hover~div.sub3 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(5):hover~div.sub4 {
+    display: none;
+}
+
+
+div.submenu>li:nth-of-type(6):hover~div.sub1 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(6):hover~div.sub2 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(6):hover~div.sub3 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(6):hover~div.sub4 {
+    display: none;
+}
+
+
+div.submenu>li:nth-of-type(7):hover~div.sub1 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(7):hover~div.sub2 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(7):hover~div.sub3 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(7):hover~div.sub4 {
+    display: none;
+}
+
+
+div.submenu>li:nth-of-type(8):hover~div.sub1 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(8):hover~div.sub2 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(8):hover~div.sub3 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(8):hover~div.sub4 {
+    display: none;
+}
+
+
+div.submenu>li:nth-of-type(9):hover~div.sub1 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(9):hover~div.sub2 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(9):hover~div.sub3 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(9):hover~div.sub4 {
+    display: none;
+}
+
+
+div.submenu>li:nth-of-type(10):hover~div.sub1 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(10):hover~div.sub2 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(10):hover~div.sub3 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(10):hover~div.sub4 {
+    display: none;
+}
+
+
+div.submenu>li:nth-of-type(11):hover~div.sub1 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(11):hover~div.sub2 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(11):hover~div.sub3 {
+    display: none;
+}
+
+div.submenu>li:nth-of-type(11):hover~div.sub4 {
+    display: none;
+}
+
+
+
+
+div.submenu:hover ~ div.sub2{
+    display: inline-block;
+}
+div.sub2:hover{
+    display: inline-block;
+}
+
+
+
+.items>ul>li{
+    border-bottom: 2px solid #fff ;
+    position: relative;
+}
+.items>ul>li:before{
+    content:"" ;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: all 100ms ease-out;
+    background-color: red;
+    position: absolute;
+}
+.items>ul>li:hover:before{
+    width: 100%;
+}
+
+div.submenu li{
+    list-style-type: none;
+}
+

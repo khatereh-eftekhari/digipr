@@ -1,0 +1,34 @@
+div.categ{
+    display: flex;
+    justify-content: space-around;
+}
+div.categ-item{
+
+}
+div.categ-item img{
+    width: 60px;
+    height: 60px;
+}
+div.categ-item span{
+    font-size: 14px;
+}
+.categ-3 a{
+    margin-right: 10px;
+}
+.categ-8{
+    padding-top: 10px;
+}
+.categ-8>div{
+    width: 35px;
+    height: 35px;
+    background-color: #F1F2F4;
+    color: #9E9FB1;
+    border-radius: 50%;
+    padding-right: 10px;
+    line-height: 25px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.categ-8 a{
+    text-decoration: none;
+}

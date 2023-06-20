@@ -1,0 +1,43 @@
+div.sub1>li{
+    position: relative;
+    line-height: 30px;
+    width: 340px;
+}
+
+div.sub1{
+    position: absolute;
+    top: 1px;
+    right: 300px;
+    cursor: pointer;
+
+}
+div.sub1>div{
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+div.sub1>li:nth-of-type(1){
+    font-weight: bolder;
+}
+
+
+div.sub1>li{
+    position: relative;
+    line-height: 30px;
+}
+
+div.sub1{
+    position: absolute;
+    top: 1px;
+    right: 250px;
+    cursor: pointer;
+
+}
+div.sub1>div{
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+div.sub1>li:nth-of-type(1){
+    font-weight: bolder;
+}
+
+f

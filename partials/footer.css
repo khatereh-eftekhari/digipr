@@ -1,0 +1,137 @@
+div.footer{
+    margin-top: 50px;
+    width: 85%;
+    margin-right: 7%;
+}
+.footer1 button{
+    float: left;
+    width: 135px;
+    height: 40px;
+    border: 1px solid #e0e0e1;
+    border-radius: 5px;
+}
+
+.footer1 button a{
+    text-decoration: none;
+    color: #5A5C7A;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.grid-container9 {
+    display: inline-grid;
+    width: 100%;
+    column-gap: 10%;
+    grid-template-columns: auto auto auto auto auto;
+    justify-items: center;
+    /*padding-right: 100px;*/
+    margin-top: 33px;
+    text-align: center;
+
+}
+.grid-item9{
+    width: 100%;
+    cursor: pointer;
+    color: #5A5C7A;
+}
+.grid-item9 span{
+    font-size: 14px;
+}
+
+
+.grid-container10 {
+    display: inline-grid;
+    width: 100%;
+    column-gap: 9vw;
+    grid-template-columns: auto auto auto auto auto;
+    justify-items: center;
+    /*padding-right: 100px;*/
+    margin-top: 33px;
+    text-align: center;
+
+}
+.grid-item10{
+    cursor: pointer;
+    color: #5A5C7A;
+}
+.grid-container10 li{
+    width: 12vw;
+    text-align: right;
+    line-height: 30px;
+}
+.grid-item10 a{
+    text-decoration: none;
+    color: #837790;
+}
+.grid-item10 li{
+    list-style-type: none;
+}
+.bold-title{
+    color: black !important;
+    font-size: 18px !important;
+    font-weight: bolder !important;
+}
+.grid-10-last li{
+    width: 255px;
+}
+
+.grid-10-email input{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(241,242,244);
+    color: #837790;
+    border: none;
+    padding-right: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.grid-10-email button{
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: #E0E0E6;
+    border-radius: 10px;
+}
+.grid-10-email button>a{
+    color: white;
+
+}
+
+.application img{
+    width: 100%;
+}
+div.enamad{
+    display: flex;
+}
+
+div.enamad>div:nth-of-type(1){
+    width: 50vw;
+    display: inline;
+    justify-content: space-between;
+
+}
+div.enamad>div:nth-of-type(1) a{
+    text-decoration: none;
+    color: #19BFD3;
+}
+div.enamad>div:nth-of-type(2){
+    width: 27vw;
+    display: inline;
+    justify-content: space-between;
+    margin-right: 8vw;
+
+}
+
+.ending-img img{
+    width: 100%;
+}
+
+
+.my-design{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
