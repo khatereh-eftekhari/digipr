@@ -47,7 +47,7 @@ div.secondswiperindex-content{
 .mySwiper2 img{
     display: block;
     width: 100%;
-    height: 30vh;  /* in avaz shod                                      adasd */
+    height: 100%;
     object-fit: contain;
 }
 .mySwiper2 img:hover{
